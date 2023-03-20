@@ -21,6 +21,11 @@ You will also need to modify the following lines in the <b>client.connect()</b> 
 <b>"NO4"</b> - this is the client ID used to connect to the MQTT broker. You can change this to any unique string.
 Note that the code is written to read and publish values from a specific Modbus device. You will need to modify the code to read and publish values from your own Modbus device. You can use the <b>readInputRegisters()</b> function to read values from your Modbus device, and the <b>client.publish()</b> function to publish these values to the MQTT broker.
 
+<h3>Example of using ESP32 and Max485</h3>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/77733903/226287526-5dbeb6bc-f6cc-468d-b47c-cf607f6975d7.jpg" width="300"><img src="https://user-images.githubusercontent.com/77733903/226287535-8d75617e-a49c-425d-a391-5e737f043994.jpg" width="300">
+</p>
+
 <h3>Example to node-red</h3>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/77733903/226286439-6c9daf95-57aa-41dd-a9aa-660c0c46fb1e.png" width="500">
