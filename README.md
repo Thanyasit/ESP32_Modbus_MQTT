@@ -1,6 +1,7 @@
 # ESP32_Modbus_MQTT
 <h2>Description</h2>
-This code is written for the ESP32 and is intended to read values from a Modbus device and publish them to an MQTT broker. The code uses the ModbusMaster library to communicate with the Modbus device and the PubSubClient library to publish to the MQTT broker.
+This code is written for the ESP32 and is intended to read values from a Modbus device and publish them to an MQTT broker. The code uses the ModbusMaster library to communicate with the Modbus device and the PubSubClient library to publish to the MQTT broker.<br>
+<b>2022</b>
 
 <h2>Usage</h2>
 The code begins by including the necessary libraries and defining some constants. The <b>setup_wifi()</b> function connects to a WiFi network using the <b>WiFi</b> library. The <b>reconnect()</b> function attempts to connect to an MQTT broker using the <b>PubSubClient</b> library.
