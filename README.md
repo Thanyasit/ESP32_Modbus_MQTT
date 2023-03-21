@@ -1,5 +1,5 @@
 # ESP32_Modbus_MQTT
-<h1>Description</h1>
+<h2>Description</h2>
 This code is written for the ESP32 and is intended to read values from a Modbus device and publish them to an MQTT broker. The code uses the ModbusMaster library to communicate with the Modbus device and the PubSubClient library to publish to the MQTT broker.
 
 <h2>Usage</h2>
