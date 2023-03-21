@@ -33,6 +33,7 @@ Note that the code is written to read and publish values from a specific Modbus 
 </p>
 
 <h2>License</h2>
-This code is licensed under the MIT License. See the LICENSE file for details.
+
+This code is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
