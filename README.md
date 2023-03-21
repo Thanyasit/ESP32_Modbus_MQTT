@@ -2,7 +2,7 @@
 <h1>Description</h1>
 This code is written for the ESP32 and is intended to read values from a Modbus device and publish them to an MQTT broker. The code uses the ModbusMaster library to communicate with the Modbus device and the PubSubClient library to publish to the MQTT broker.
 
-<h1>Usage</h1>
+<h2>Usage</h2>
 The code begins by including the necessary libraries and defining some constants. The <b>setup_wifi()</b> function connects to a WiFi network using the <b>WiFi</b> library. The <b>reconnect()</b> function attempts to connect to an MQTT broker using the <b>PubSubClient</b> library.
 
 The <b>preTransmission()</b> and <b>postTransmission()</b> functions are used to control the MAX485 transceiver, which is used to communicate with the Modbus device. The <b>setup()</b> function initializes the serial communication, connects to the WiFi network and MQTT broker, and reads values from the Modbus device. It then publishes these values to the MQTT broker using the <b>client.publish()</b> function.
@@ -31,7 +31,7 @@ Note that the code is written to read and publish values from a specific Modbus 
 <img src="https://user-images.githubusercontent.com/77733903/226286439-6c9daf95-57aa-41dd-a9aa-660c0c46fb1e.png" width="500">
 </p>
 
-<h1>License</h1>
+<h2>License</h2>
 This code is licensed under the MIT License. See the LICENSE file for details.
 
 
